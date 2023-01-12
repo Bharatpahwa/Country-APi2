@@ -5,6 +5,9 @@ const SearchInput = document.querySelector(".search-input");
 const container = document.querySelector(".cards-container");
 const NContainer = document.querySelector(".neighbouring-countainer");
 const mylocation = document.querySelector(".where");
+function websiteVisits(response) {
+  document.querySelector("#visits").textContent = response.value;
+}
 
 mylocation.addEventListener("click", function () {
   WhereAmI();
