@@ -7,7 +7,9 @@ body {
   background-color: rgba(228, 233, 238, 0.851);
   padding: 20px;
 }
-
+.numvisits{
+  text-align: center;
+}
 .country-card {
   display: flex;
   flex-direction: column;
